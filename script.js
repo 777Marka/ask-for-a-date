@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const title = document.querySelector('.title');
     const text = title.textContent;
     title.textContent = '';
-    // Coding By AzadCoder - ig: @azadcoderr
+
     const possibleChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+";
 
     for (let i = 0; i < text.length; i++) {
@@ -80,7 +80,7 @@ yesButton.addEventListener('click', function () {
     const title = document.querySelector('.title');
     title.textContent = 'Yaşasınn!';
 });
-// Coding By AzadCoder - ig: @azadcoderr
+
 function generateHearts() {
     const symbols = ['❤️', '💖', '💗', '💕', '💓'];
     const heartInterval = 100;
@@ -139,7 +139,7 @@ document.addEventListener('keydown', function (event) {
     }
 }
 });
-// Coding By AzadCoder - ig: @azadcoderr
+
 
     document.addEventListener('contextmenu', function (e) {
         e.preventDefault();
